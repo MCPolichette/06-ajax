@@ -16,11 +16,14 @@
     $.ajax({
       url: queryURL,
       method: "GET"
-    }).then(function(response) {
+    }).then(function (response) {
       console.log(response);
       console.log(response.Runtime);
     });
-// ---------------------------------------------------------
+
+
+    // .then is a promise..... GET THE DATA>>> THEN GIVE THE RESULT!
+    // ------------ - --- -- -- --- -- - --- ------- --- -- ----------------
 
     console.log("This console.log will probably happen first because of asynchronicity.");
     var x = 2;
